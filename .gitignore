@@ -4,7 +4,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -65,15 +64,15 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Bob sessions
-bob_sessions/
+# Bob sessions are required for IBM BOB hackathon judging.
+!bob_sessions/
+!bob_sessions/**
 
 # Temporary files
 *.tmp
 *.bak
 
 # Made with Bob
-=======
 share/python-wheels/
 *.egg-info/
 .installed.cfg
